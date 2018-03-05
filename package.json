@@ -1,0 +1,28 @@
+{
+  "name": "roads-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v --sourcemaps test/roads.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancespiele/roads-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dancespiele/roads-test/issues"
+  },
+  "homepage": "https://github.com/dancespiele/roads-test#readme",
+  "dependencies": {
+    "roads": "^5.0.0-alpha.14",
+    "roads-server": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^15.2.2",
+    "request-promise": "^4.2.2"
+  }
+}
